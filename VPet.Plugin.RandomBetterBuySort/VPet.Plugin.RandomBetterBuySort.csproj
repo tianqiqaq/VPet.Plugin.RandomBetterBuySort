@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="VPet-Simulator.Windows.Interface" Version="1.1.0.50" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="VPet-Simulator.Windows">
+        <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VPet\VPet-Simulator.Windows.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
